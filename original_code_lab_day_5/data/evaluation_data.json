@@ -1,0 +1,92 @@
+[
+  {
+    "query": "Welcher USB-Port ist für Dashcam/Wächter-Modus zu verwenden?",
+    "answer": "USB-A im Handschuhfach; vordere USB-Ports unterstützen Formatieren/Speichern/Abspielen, hintere USB-C nur Laden.",
+    "page": "168-169",
+    "result": "USB-A im Handschuhfach; vordere USB-Ports unterstützen Formatieren/Speichern/Abspielen, hintere USB-C nur Laden."
+  },
+  {
+    "query": "Welche Mindestanforderungen muss das USB-Laufwerk erfüllen?",
+    "answer": "Mindestens 64 GB, dauerhafte Schreibgeschwindigkeit ≥4 MB/s, USB-2.0-kompatibel, korrekt formatiert.",
+    "page": "168-169",
+    "result": "Das USB-Laufwerk sollte mindestens 32 GB haben und schnell sein. USB-3.0 wird empfohlen für beste Leistung."
+  },
+  {
+    "query": "Wie formatiert man das USB-Laufwerk im Fahrzeug automatisch und welche Ordner werden angelegt?",
+    "answer": "Fahrzeug > Sicherheit > „USB-Laufwerk formatieren\"; exFAT; Ordner „TeslaCam\" und ggf. „TeslaTrackMode\".",
+    "page": "168-169",
+    "result": "Fahrzeug > Sicherheit > „USB-Laufwerk formatieren\"; exFAT; Ordner „TeslaCam\" und ggf. „TeslaTrackMode\"."
+  },
+  {
+    "query": "Wo öffnet man die Energie-App und wofür stehen farbige vs. graue Linie?",
+    "answer": "App-Launcher; farbige Linien = tatsächlicher Verbrauch, graue Linie = Prognose.",
+    "page": "208",
+    "result": "In den Einstellungen unter Energie; farbige Linien zeigen vergangenen Verbrauch, graue Linien zukünftige Vorhersagen."
+  },
+  {
+    "query": "Wie aktiviert man „Mit Autopilot navigieren\" automatisch „vor jeder Fahrt\" und unter welchen Bedingungen startet es dann?",
+    "answer": "Fahrzeug > Autopilot > Mit Autopilot navigieren (Beta) > „Vor jeder Fahrt aktivieren\"; benötigt aktiven Lenkassistenten, aktive Navigationsroute und Autobahn mit kontrolliertem Zugang.",
+    "page": "122-123",
+    "result": "Fahrzeug > Autopilot > Mit Autopilot navigieren (Beta) > „Vor jeder Fahrt aktivieren\"; benötigt aktiven Lenkassistenten, aktive Navigationsroute und Autobahn mit kontrolliertem Zugang."
+  },
+  {
+    "query": "Nenne alle Abbruchbedingungen für Abstandsgeschwindigkeitsregler und die zusätzlichen für den Lenkassistenten.",
+    "answer": "Regler: rechtes Scrollrad drücken, Bremse treten, >150 km/h, Gang R/P/N, Tür geöffnet, AEB, Fahrergurt gelöst/Sitz verlassen. Lenkassistent zusätzlich: >140 km/h oder Lenkmoment am Lenkrad.",
+    "page": "121",
+    "result": "Der Autopilot wird abgebrochen wenn man bremst, das Lenkrad dreht oder die Geschwindigkeit zu hoch wird. Auch bei Türöffnung stoppt er."
+  },
+  {
+    "query": "Unterschied zwischen geschwindigkeits- und routenbasierten Spurwechseln; wann ist eine Bestätigung nötig und wann bricht der Spurwechsel ab?",
+    "answer": "Geschwindigkeitsbasiert: Spurwechsel zum Erreichen der Sollgeschwindigkeit; routenbasiert: Spurwechsel/Abfahrt laut Route. Bestätigung per Blinker innerhalb 3 s, sonst Warnton; Abbruch, wenn nicht binnen 5 s ausführbar.",
+    "page": "122-123",
+    "result": "Geschwindigkeitsbasiert: Spurwechsel zum Erreichen der Sollgeschwindigkeit; routenbasiert: Spurwechsel/Abfahrt laut Route. Bestätigung per Blinker innerhalb 3 s, sonst Warnton; Abbruch, wenn nicht binnen 5 s ausführbar."
+  },
+  {
+    "query": "Was passiert mit „Mit Autopilot navigieren\", wenn man eine kontrollierte Autobahn verlässt?",
+    "answer": "Wechselt zum Lenkassistenten, Ton ertönt, Fahrspurlinien blau; Fahrer bleibt aufmerksam und eingriffsbereit.",
+    "page": "123",
+    "result": "Das System schaltet sich komplett ab und der Fahrer muss vollständig übernehmen. Ein Warnsignal ertönt dreimal."
+  },
+  {
+    "query": "Wie sieht man gespeicherte Dashcam/Wächter-Clips am Fahrzeug und welche Ordnerstruktur hat „TeslaCam\"?",
+    "answer": "Parkstellung > Dashcam-App; Listen nach Ort/Zeit, Clips abspielen/löschen. Ordner: „RecentClips\", „SavedClips\", „SentryClips\".",
+    "page": "169",
+    "result": "Parkstellung > Dashcam-App; Listen nach Ort/Zeit, Clips abspielen/löschen. Ordner: „RecentClips\", „SavedClips\", „SentryClips\"."
+  },
+  {
+    "query": "Welche relevanten Autopilot-Einstellungen gibt es für Fahrgeschwindigkeit, Geschwindigkeitsabweichung, Aktivierung sowie „Ton für grüne Ampel\"?",
+    "answer": "Fahrgeschwindigkeit = Geschwindigkeitslimit oder aktuelle Geschwindigkeit; Abweichung fest oder prozentual; Aktivierung: Einzelklick vs. Doppelklick; optionaler Ton bei Grün.",
+    "page": "120-121",
+    "result": "Man kann die maximale Geschwindigkeit einstellen und ob der Autopilot mit einem oder zwei Klicks aktiviert wird. Außerdem gibt es einen Ton für grüne Ampeln."
+  },
+  {
+    "query": "EU-Limit: Wie lange zeichnet der Wächter-Modus am Stück auf und wann werden ungespeicherte Aufnahmen gelöscht?",
+    "answer": "Max. 10 Minuten; Löschung bei Deaktivieren des Wächter-Modus oder beim Wiedereinsteigen, sofern kein Ereignis gespeichert wurde.",
+    "page": "168",
+    "result": "Max. 10 Minuten; Löschung bei Deaktivieren des Wächter-Modus oder beim Wiedereinsteigen, sofern kein Ereignis gespeichert wurde."
+  },
+  {
+    "query": "Wie formatiert man ein USB-Laufwerk manuell und welche Dateisysteme werden unterstützt/nicht unterstützt? Welche Ordner sind nötig?",
+    "answer": "Am Computer als exFAT, MS-DOS FAT (Mac), ext3 oder ext4 formatieren; NTFS wird nicht unterstützt; Ordner „TeslaCam\" und ggf. „TeslaTrackMode\" im Root anlegen.",
+    "page": "168-170",
+    "result": "Das USB-Laufwerk muss als NTFS oder FAT32 formatiert werden. Der Ordner „TeslaCam\" wird automatisch erstellt wenn man das Laufwerk einsteckt."
+  },
+  {
+    "query": "Welche Voraussetzungen müssen erfüllt sein, damit „USB-Laufwerk formatieren\" im Fahrzeug verfügbar ist, und welche Ports sind dafür zu nutzen bzw. nicht zu nutzen?",
+    "answer": "Laufwerk mit ≤1 Partition in einen vorderen, unterstützten USB-Port stecken; ideal USB-A im Handschuhfach. Hintere USB-C unterstützen kein Formatieren/Speichern/Abspielen.",
+    "page": "168-170",
+    "result": "Laufwerk mit ≤1 Partition in einen vorderen, unterstützten USB-Port stecken; ideal USB-A im Handschuhfach. Hintere USB-C unterstützen kein Formatieren/Speichern/Abspielen."
+  },
+  {
+    "query": "In der Energie-App: Wie schaltet man zwischen „Aktuelle Reichweite\" und „Durchschnittliche Reichweite\" um und was ändert sich?",
+    "answer": "Umschalten per Tippen; „Aktuelle Reichweite\" nutzt nur letzte Datenpunkte, „Durchschnittliche Reichweite\" mittelt über 10/25/50 km für genauere Schätzung.",
+    "page": "208",
+    "result": "Durch Wischen nach links oder rechts kann man zwischen den Modi wechseln. Die aktuelle Reichweite ist genauer, die durchschnittliche stabiler."
+  },
+  {
+    "query": "Welche Einstellung erlaubt die Nutzung des Abstandsgeschwindigkeitsreglers ohne Lenkassistent?",
+    "answer": "„Autopilot-Aktivierung\" auf Doppelklick stellen.",
+    "page": "120-121",
+    "result": "„Autopilot-Aktivierung\" auf Doppelklick stellen."
+  }
+]
