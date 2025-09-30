@@ -1,0 +1,17 @@
+# Sample Feature Requests
+
+## Authentication Workflow
+I want a login system where users register with email and password,
+get verification emails, and can reset passwords securely.
+
+## Analytics Dashboard
+Build a dashboard that displays weekly active users, feature adoption,
+and conversion funnels with real-time updates.
+
+## Content Moderation
+We need an agent that reviews user-uploaded images and flags any
+content that violates community guidelines.
+
+## Classroom Companion
+Create a tutor agent that helps students plan study sessions, keeps
+track of assignments, and adapts suggestions to their progress.

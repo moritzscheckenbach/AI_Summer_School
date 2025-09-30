@@ -208,3 +208,46 @@ __marimo__/
 
 # Claude Code Documentation
 CLAUDE.md
+
+
+# Python artifacts
+__pycache__/
+*.py[cod]
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Virtual environments & tooling
+.venv/
+.env
+.env.*
+!.env.example
+.python-version
+.uv/
+uv.lock
+
+# IDE & editor settings
+.vscode/
+.idea/
+*.swp
+.DS_Store
+
+# Chainlit & project outputs
+.chainlit/
+outputs/
+logs/
+
+# Misc
+*.log
+.cache/
+coverage/
+
+data/
+vectordb/
+
+ai-summerschool-2025-b8b059c2b9c5.json
+client_secret_320351796946-ns287s3k6o3bj5l5ilgr7l36fl9ibjct.apps.googleusercontent.com.json
+ai-summerschool-2025-30d03eb0fedc.json

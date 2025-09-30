@@ -1,0 +1,37 @@
+[project]
+name = "multi-agent-lab"
+version = "0.1.0"
+description = "Project template for a multi-agent AI system used in the summer school lab."
+readme = "README.md"
+requires-python = "==3.12.*"
+authors = [
+  { name = "Summer School Team" }
+]
+dependencies = [
+    "chainlit==2.8.0",
+    "icalendar==6.3.1",
+    "langchain==0.3.27",
+    "langchain-community==0.3.29",
+    "langchain-core==0.3.76",
+    "langchain-openai",
+    "langchain-tavily==0.2.11",
+    "langgraph==0.6.7",
+    "openai==1.108.0",
+    "pydantic==2.11.9",
+    "python-dotenv==1.1.1",
+]
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]
+addopts = "-ra"
+
+[build-system]
+requires = ["setuptools>=68.0"]
+build-backend = "setuptools.build_meta"
+
+[dependency-groups]
+dev = [
+    "pytest>=8.4.2",
+    "pytest-asyncio>=1.2.0",
+]
